@@ -1,6 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media (max-width: 750px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+html, body{
+    height: 100%;
 }
 
 body{
@@ -8,15 +29,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.form{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 3%;
+
 }
+
 
 .login{
     border: 2px solid black;
@@ -102,6 +120,7 @@ body{
     font-family: serif;
     font-weight: 500;
     color: white;
+    margin-left: 18px;
 }
 
 .image_icon {
@@ -121,6 +140,7 @@ body{
     font-weight: 600;
     font-family: serif;
     color: white;
+    margin-left: 18px;
 }
 
 .sign_up{
@@ -130,6 +150,7 @@ body{
     font-family: serif;
     padding-bottom: 30px;
     color: white;
+    margin-left: 35px;
 }
 
 
