@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.be5169fe358cddf9251f1007b97d4cc8?rik=%2bCN4%2bGOBkw1ESw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fPeaceful-Desktop-Backgrounds.jpeg&ehk=23WIQbDrBOqACC%2bGzzRj9h%2fhZ4iGgWR0kDGAEM%2bHGjk%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.login{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+
+}
+
+
+
+.login h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: 600;
+    margin-top: 30px;
+    color: white;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: serif;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#username{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.Login_button{
+    padding: 5px 80px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.Login_button:hover{
+   background-color: white;
+   color: black;
+}
+
+.input input{
+    height: 25px;
+    width: 215px;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+::placeholder{
+    color: white;
+}
+
+#forget_button{
+    font-size: 13px;
+    padding-left: 120px;
+    font-weight: 700;
+    font-family: none;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.pera1{
+    padding-top: 40px;
+    font-size: 14px;
+    font-family: serif;
+    font-weight: 500;
+    color: white;
+}
+
+.image_icon {
+    display: flex;
+}
+
+.image_icon img{
+    width: 25px;
+    margin: 6px;
+    border-radius: 15px;
+
+}
+
+.pera2{
+    padding-top: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: serif;
+    color: white;
+}
+
+.sign_up{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: serif;
+    padding-bottom: 30px;
+    color: white;
+}
+
