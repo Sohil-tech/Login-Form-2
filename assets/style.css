@@ -91,14 +91,14 @@ body{
 
 .Login_button:hover{
    background-color: white;
-   color: black;
+   /* color: black; */
 }
 
 .input input{
     height: 25px;
     width: 215px;
-    text-decoration: underline;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 ::placeholder{
     color: rgba(225, 225, 225, 0.5);
